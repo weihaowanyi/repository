@@ -1,0 +1,18 @@
+{
+  "name": "katana",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-resource": "^1.4.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-translate": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1",
+    "angular-jwt": "~0.0.9",
+    "ngstorage": "~0.3.10",
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "katana"
+}

@@ -1,0 +1,154 @@
+<ion-view view-title="会议">
+  <ion-content>
+    <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true">
+      <ion-slide>
+
+        <div class="list card">
+          <div class="item item-avatar">
+            <img src="images/nonumber1989.jpg">
+
+            <h2><strong>蔡杰研究员</strong></h2>
+
+            <p>香港大学 医疗信息化博士</p>
+          </div>
+
+          <div class="item item-text-wrap">
+            <div class="text-center">
+              <h1>MSD</h1>
+
+              <h2>仅仅发明了一种新型药品，并且已经大功告成.我们还要探索有效途径，使默沙东的最佳科研成果，能够造福于全人类！</h2>
+
+              <p>
+                目前，我们在中国提供涵盖心血管、抗感染、男性健康、女性健康、骨科、疼痛、皮肤、呼吸、糖尿病、专科药品、辅助生殖等领域的42种人用药品和疫苗。我们还向中国市场提供46种动物保健产品，用以预防和治疗家禽家畜以及宠物的疾病</p>
+            </div>
+          </div>
+
+          <a class="item item-icon-left positive" href="#">
+            <i class="icon ion-ios-location"></i>
+            <span>中国上海市浦东新区世博大道1200号 <strong>梅赛德斯-奔驰文化中心</strong></span>
+          </a>
+
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="list">
+
+          <div class="item item-divider">
+            签到
+            <span class="item-note">
+              9：00 - 10：00
+             </span>
+          </div>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-qr-scanner"></i>
+            扫描二维码
+          </a>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-ios-pricetag-outline"></i>
+            领取会议标签
+          </a>
+
+          <div class="item item-divider">
+            开场秀
+            <span class="item-note">
+              10：00 - 12：00
+             </span>
+          </div>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-ios-people-outline"></i>
+            会员讨论交流
+          </a>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-compose"></i>
+            录入兴趣问题
+          <span class="item-note">
+            讲师讲择题解答交流
+          </span>
+          </a>
+
+          <div class="item item-divider">
+            主题演讲
+            <span class="item-note">
+              13：00 - 17：00
+             </span>
+          </div>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-mic-a"></i>
+            关于MSD讲解
+            <span class="badge badge-assertive">3 hours</span>
+          </a>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-mic-b"></i>
+            问题解答
+            <span class="badge badge-assertive">1 hours</span>
+          </a>
+
+          <div class="item item-divider">
+            闭幕
+            <span class="item-note">
+              17：00 - 17：30
+             </span>
+          </div>
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-ribbon-a"></i>
+            抽奖
+          </a>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="list">
+
+          <div class="item item-divider">
+            请填写个人资料进行会议签到
+          </div>
+          <label class="item item-input">
+            <input type="text" placeholder="姓名" ng-model="account.name">
+          </label>
+          <label class="item item-input">
+            <input type="number" placeholder="电话"  ng-model="account.phone">
+          </label>
+          <label class="item item-input">
+            <input type="text" placeholder="公司" ng-model="account.company">
+          </label>
+          <label class="item item-input">
+            <input type="text" placeholder="职位" ng-model="account.position">
+          </label>
+          <label class="item item-input">
+            <textarea placeholder="备注" ng-model="account.comment"></textarea>
+          </label>
+            <button class="button button-block button-positive" ng-click="register()">
+              签到
+            </button>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-content>
+</ion-view>
+
+<style>
+  .slider {
+    height: 100vh;
+    background-color: #eee;
+  }
+</style>
+
+
+
+<script id="success.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">My Modal title</h1>
+    </ion-header-bar>
+    <ion-content>
+      Hello!
+    </ion-content>
+  </ion-modal-view>
+</script>

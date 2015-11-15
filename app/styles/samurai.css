@@ -1,0 +1,48 @@
+.media {
+  margin: 15px;
+  background-color: white;
+  padding: 30px;
+}
+
+.media-inside{
+  padding: 10px !important;
+  border-width: thin;
+  border-style: solid;
+  border-color: #E8E7E7;
+  margin: 20px;
+}
+
+.media-heading .time{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* katana layout */
+.katana-layout-half {
+  height: 50vh;
+  overflow: hidden;
+}
+.katana-layout-content {
+  height: 90vh;
+  overflow-y: scroll;
+}
+.katana-layout-footer {
+  height: 10vh;
+  overflow: hidden;
+}
+.katana-full-height{
+  height: 100%;
+  min-height: 100%;
+}
+
+.katana-font{
+  margin-left: 25px;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+}
+
+.katana-image{
+  height: 100%;
+  width: 100%;
+}

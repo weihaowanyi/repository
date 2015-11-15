@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.bowerrc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/api/languages/languages.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/api/languages/zh_CN.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/api/languages/zh_EN.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/api/messages.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/accountController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/bookDetailsController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/bookRecommendationsController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/bookScannerController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/booksForBorrowController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/booksForMeController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/conferenceController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/customerServiceController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/katanaController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/masoryController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/notificationController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/AccountService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/resourceService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/samurai.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/booksForMe/favorite.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/booksForMe/wishList.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/conference/conference.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/conference/interactive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
+  </component>
+</project>
