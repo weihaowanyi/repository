@@ -6,6 +6,9 @@ katana
   .factory("TheAccount", function($resource) {
       return $resource('http://127.0.0.1:3000/account/attendConference');
   })
+  .factory("Question", function($resource) {
+    return $resource('http://127.0.0.1:3000/account/askQuestion');
+  })
     .factory("BookRecommendations", function($resource) {
         return $resource('dataset/bookRecommendations.json');
     })

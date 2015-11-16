@@ -124,9 +124,9 @@
           <label class="item item-input">
             <textarea placeholder="备注" ng-model="account.comment"></textarea>
           </label>
-            <button class="button button-block button-positive" ng-click="register()">
-              签到
-            </button>
+          <button class="button button-block button-positive" ng-click="register()">
+            签到
+          </button>
         </div>
       </ion-slide>
     </ion-slide-box>
@@ -140,15 +140,15 @@
   }
 </style>
 
-
-
-<script id="success.html" type="text/ng-template">
+<script id="theDialog.html" type="text/ng-template">
   <ion-modal-view>
     <ion-header-bar>
-      <h1 class="title">My Modal title</h1>
+      <h1 class="title">MSD感谢您的支持！</h1>
     </ion-header-bar>
     <ion-content>
-      Hello!
+      <p class="text-center">{{message}}</p>
     </ion-content>
   </ion-modal-view>
 </script>
+
+
