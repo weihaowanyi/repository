@@ -21,6 +21,7 @@ katana.controller('ConferenceController', function($scope,$ionicModal,$localStor
   $scope.askQuestion = function(){
     $scope.interview.name = angular.fromJson($localStorage.account).name;
     $scope.interview.phone = angular.fromJson($localStorage.account).phone;
+    $scope.interview.created = Date.now();
     Question.save($scope.interview,function(result){
       $scope.message = "您已经提问成功！感谢您的支持！";
       $scope.openModal();
